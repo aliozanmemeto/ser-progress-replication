@@ -1,0 +1,101 @@
+[2026-03-18 08:47:27,684][HYDRA] Launching 270 jobs locally
+[2026-03-18 08:47:27,684][HYDRA] 	#0 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-IS09-llds model=Seq-FFNN-IS09 optimizer=Adam
+[2026-03-18 08:47:32,835][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _speechbrain_save
+[2026-03-18 08:47:32,835][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _speechbrain_load
+[2026-03-18 08:47:32,835][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for save
+[2026-03-18 08:47:32,835][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for load
+[2026-03-18 08:47:33,113][speechbrain.utils.quirks][INFO] - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+[2026-03-18 08:47:33,113][speechbrain.utils.quirks][INFO] - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+[2026-03-18 08:47:33,114][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 08:47:33,114][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _recover
+[2026-03-18 08:47:33,119][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 08:47:33,120][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _load
+[2026-03-18 08:47:33,120][speechbrain.utils.checkpoints][DEBUG] - Registered parameter transfer hook for _load
+[2026-03-18 08:47:48,597][INFO]
+Dev results at epoch 1:
+accuracy:   0.0999
+uar:        0.2000
+f1:         0.0363
+train_loss: 0.8549
+dev_loss:   0.9379
+
+[2026-03-18 08:48:04,122][INFO]
+Dev results at epoch 2:
+accuracy:   0.0999
+uar:        0.2000
+f1:         0.0363
+train_loss: 0.8539
+dev_loss:   0.9375
+
+[2026-03-18 08:48:20,608][INFO]
+Dev results at epoch 3:
+accuracy:   0.0999
+uar:        0.2000
+f1:         0.0363
+train_loss: 0.8536
+dev_loss:   0.9448
+
+[2026-03-18 08:48:36,360][INFO]
+Dev results at epoch 4:
+accuracy:   0.5342
+uar:        0.2000
+f1:         0.1393
+train_loss: 0.8541
+dev_loss:   0.9426
+
+[2026-03-18 08:48:52,762][INFO]
+Dev results at epoch 5:
+accuracy:   0.2065
+uar:        0.2000
+f1:         0.0685
+train_loss: 0.8537
+dev_loss:   0.9459
+
+[2026-03-18 08:49:08,135][INFO]
+Dev results at epoch 6:
+accuracy:   0.0932
+uar:        0.2000
+f1:         0.0341
+train_loss: 0.8538
+dev_loss:   0.9390
+
+[2026-03-18 08:49:24,644][INFO]
+Dev results at epoch 7:
+accuracy:   0.0662
+uar:        0.2000
+f1:         0.0248
+train_loss: 0.8537
+dev_loss:   0.9485
+
+[2026-03-18 08:49:40,409][INFO]
+Dev results at epoch 8:
+accuracy:   0.0999
+uar:        0.2000
+f1:         0.0363
+train_loss: 0.8538
+dev_loss:   0.9376
+
+[2026-03-18 08:49:56,731][INFO]
+Dev results at epoch 9:
+accuracy:   0.0932
+uar:        0.2000
+f1:         0.0341
+train_loss: 0.8535
+dev_loss:   0.9396
+
+[2026-03-18 08:50:12,199][INFO]
+Dev results at epoch 10:
+accuracy:   0.0662
+uar:        0.2000
+f1:         0.0248
+train_loss: 0.8536
+dev_loss:   0.9470
+
+[2026-03-18 08:50:28,340][INFO]
+Dev results at epoch 11:
+accuracy:   0.0999
+uar:        0.2000
+f1:         0.0363
+train_loss: 0.8542
+dev_loss:   0.9399
+

@@ -1,0 +1,18 @@
+[2026-03-18 11:06:33,038][HYDRA] Launching 6 jobs locally
+[2026-03-18 11:06:33,038][HYDRA] 	#0 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 11:06:38,786][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _speechbrain_save
+[2026-03-18 11:06:38,786][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _speechbrain_load
+[2026-03-18 11:06:38,786][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for save
+[2026-03-18 11:06:38,786][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for load
+[2026-03-18 11:06:39,059][speechbrain.utils.quirks][INFO] - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+[2026-03-18 11:06:39,059][speechbrain.utils.quirks][INFO] - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+[2026-03-18 11:06:39,060][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 11:06:39,060][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _recover
+[2026-03-18 11:06:39,064][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 11:06:39,065][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _load
+[2026-03-18 11:06:39,065][speechbrain.utils.checkpoints][DEBUG] - Registered parameter transfer hook for _load
+[2026-03-18 11:07:10,093][HYDRA] 	#1 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 11:07:56,549][HYDRA] 	#2 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 11:08:41,064][HYDRA] 	#3 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 11:09:26,445][HYDRA] 	#4 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 11:10:05,563][HYDRA] 	#5 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD

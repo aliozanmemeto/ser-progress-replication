@@ -1,0 +1,1103 @@
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-10 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-2 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-34 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-42 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-66 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-74 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-98 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-106 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-130 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-138 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-162 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-170 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-194 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-202 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-226 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-234 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-258 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-266 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 295, in forward_pass
+    _ = model(*x, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 125, in forward
+    return self.frontend(self.embeddings(features))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 122, in embeddings
+    return self.backbone(features.squeeze(1))
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 53, in forward
+    return self.embeddings(features)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/models/sequential.py", line 47, in embeddings
+    x = self.model(features)[0]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1101, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1002, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 314, in check_input
+    raise RuntimeError(
+RuntimeError: input.size(-1) must be equal to input_size. Expected 32, got 105
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Error executing job with overrides: ["+loggers=['autrainer.loggers.TensorBoardLogger']", '+seed=1', '+learning_rate=0.01', '+batch_size=4', 'dataset=AIBO-2cl-IS09-llds', 'model=Seq-FFNN-IS09', 'optimizer=Adam']
+Error locating target 'data.OpenSMILE', set env var HYDRA_FULL_ERROR=1 to see chained exception.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

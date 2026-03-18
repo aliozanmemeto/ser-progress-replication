@@ -30,6 +30,6 @@ hydra:
       - type: expr
         expr: dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'
       - type: expr
-        expr: dataset['id'] == "AIBO-2cl-mel16k" and model['id'] in ["Seq-FFNN-IS09","w2v2-l-emo","Whisper-FFNN-Tiny-T"]
+        expr: dataset['id'] == "AIBO-2cl-mel-16k" and model['id'] in ["Seq-FFNN-IS09","w2v2-l-emo","Whisper-FFNN-Tiny-T"]
       - type: expr
         expr: dataset['id'] == "AIBO-2cl-wav" and model['id'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]

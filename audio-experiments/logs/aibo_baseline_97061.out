@@ -1,0 +1,45 @@
+[2026-03-18 11:19:51,822][HYDRA] Launching 6 jobs locally
+[2026-03-18 11:19:51,822][HYDRA] 	#0 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 11:19:57,783][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _speechbrain_save
+[2026-03-18 11:19:57,783][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _speechbrain_load
+[2026-03-18 11:19:57,783][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for save
+[2026-03-18 11:19:57,784][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for load
+[2026-03-18 11:19:58,061][speechbrain.utils.quirks][INFO] - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+[2026-03-18 11:19:58,062][speechbrain.utils.quirks][INFO] - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+[2026-03-18 11:19:58,063][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 11:19:58,063][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _recover
+[2026-03-18 11:19:58,068][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 11:19:58,068][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _load
+[2026-03-18 11:19:58,068][speechbrain.utils.checkpoints][DEBUG] - Registered parameter transfer hook for _load
+[2026-03-18 11:22:10,959][INFO]
+Dev results at epoch 1:
+accuracy:   0.2974
+uar:        0.5000
+f1:         0.2292
+train_loss: 0.7506
+dev_loss:   0.6078
+
+[2026-03-18 11:25:59,030][INFO]
+Dev results at epoch 2:
+accuracy:   0.7026
+uar:        0.5000
+f1:         0.4127
+train_loss: 0.6241
+dev_loss:   0.6004
+
+[2026-03-18 11:28:48,408][INFO]
+Dev results at epoch 3:
+accuracy:   0.2974
+uar:        0.5000
+f1:         0.2292
+train_loss: 0.6242
+dev_loss:   0.6072
+
+[2026-03-18 11:31:38,804][INFO]
+Dev results at epoch 4:
+accuracy:   0.7026
+uar:        0.5000
+f1:         0.4127
+train_loss: 0.6249
+dev_loss:   0.6016
+

@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/bin/autrainer", line 8, in <module>
+    sys.exit(main())
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/cli.py", line 108, in main
+    cli.main()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/cli.py", line 100, in main
+    command.run(args, unknown)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/abstract_script.py", line 68, in run
+    self.main(args)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/preprocess_script.py", line 191, in main
+    self._preprocess_datasets()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/preprocess_script.py", line 205, in _preprocess_datasets
+    preprocess_main(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/preprocess_script.py", line 83, in preprocess_main
+    (data.train_dataset, data.df_train, "train"),
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/datasets/abstract_dataset.py", line 244, in train_dataset
+    return self._init_dataset(self.df_train, self.train_transform)
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/datasets/aibo.py", line 101, in df_train
+    df = self._load_df
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/datasets/aibo.py", line 86, in _load_df
+    df = pd.read_csv(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/data/chi-gpu1/perser/AIBO/chunk_labels_5cl_corpus.txt'
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

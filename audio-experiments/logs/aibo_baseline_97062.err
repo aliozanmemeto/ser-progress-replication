@@ -1,0 +1,11 @@
+/bin/sh: line 1: pip: command not found
+/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+slurmstepd: error: *** JOB 97062 ON chi-gpu5 CANCELLED AT 2026-03-18T11:31:48 ***
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

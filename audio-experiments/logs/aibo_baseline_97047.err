@@ -1,0 +1,303 @@
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-408 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 8.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.08 GiB is allocated by PyTorch, and 174.34 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-423 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 8.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.09 GiB is allocated by PyTorch, and 166.32 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-438 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 8.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.09 GiB is allocated by PyTorch, and 166.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-453 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 8.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.09 GiB is allocated by PyTorch, and 166.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-483 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 6.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.05 GiB is allocated by PyTorch, and 204.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-498 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 6.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.07 GiB is allocated by PyTorch, and 185.58 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-513 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 6.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.07 GiB is allocated by PyTorch, and 185.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+Exception in thread Thread-528 (save_model_summary):
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 293, in forward_pass
+    model = model if device is None else model.to(device)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.57 GiB of which 6.06 MiB is free. Including non-PyTorch memory, this process has 23.55 GiB memory in use. Of the allocated memory 23.07 GiB is allocated by PyTorch, and 185.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/ge62niq/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/utils/bookkeeping.py", line 114, in save_model_summary
+    s = summary(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 223, in summary
+    summary_list = forward_pass(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torchinfo/torchinfo.py", line 304, in forward_pass
+    raise RuntimeError(
+RuntimeError: Failed to run torchinfo. See above stack traces for more details. Executed layers up to: []
+/bin/sh: line 1: pip: command not found
+slurmstepd: error: *** JOB 97047 ON chi-gpu5 CANCELLED AT 2026-03-18T10:52:05 ***
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

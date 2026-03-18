@@ -1,0 +1,24 @@
+defaults:
+  - _autrainer_
+  - _self_
+
+results_dir: /data/chi-gpu1/perser/AIBO/results/ser-experiments
+experiment_id: aibo-5cl-tuning-b
+iterations: 30
+progress_bar: false
+
+hydra:
+  sweeper:
+    params:
+      +loggers:
+        - autrainer.loggers.TensorBoardLogger
+      +seed: 1
+      +learning_rate: 0.01,0.001,0.0001
+      +batch_size: 4
+      dataset:
+        AIBO-5cl-wav # AIBO-5cl-wav
+      model:
+        w2v2-b
+        # w2v2-l-rob,
+        # w2v2-b
+      optimizer: Adam,SGD

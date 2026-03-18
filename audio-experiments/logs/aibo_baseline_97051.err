@@ -1,0 +1,28 @@
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+Error executing job with overrides: ["+loggers=['autrainer.loggers.TensorBoardLogger']", '+seed=1', '+learning_rate=0.01', '+batch_size=4', 'dataset=AIBO-5cl-wav', 'model=w2v2-l-emo', 'optimizer=Adam']
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/train_script.py", line 74, in main
+    return trainer.train()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/training/training.py", line 386, in train
+    self.train_epochs()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/training/training.py", line 474, in train_epochs
+    for batch_idx, data in enumerate(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/tqdm/std.py", line 1169, in __iter__
+    for obj in iterable:
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 733, in __next__
+    data = self._next_data()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/structs/abstract_data_struct.py", line 70, in collate
+    batch[k] = torch.stack([f[k] for f in items])
+RuntimeError: stack expects each tensor to be equal size, but got [33920] at entry 0 and [26080] at entry 1
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

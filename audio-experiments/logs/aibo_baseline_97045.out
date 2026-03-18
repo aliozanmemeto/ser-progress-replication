@@ -1,0 +1,120 @@
+[2026-03-18 10:00:16,032][HYDRA] Launching 108 jobs locally
+[2026-03-18 10:00:16,032][HYDRA] 	#0 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:21,414][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _speechbrain_save
+[2026-03-18 10:00:21,414][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _speechbrain_load
+[2026-03-18 10:00:21,414][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for save
+[2026-03-18 10:00:21,414][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for load
+[2026-03-18 10:00:21,689][speechbrain.utils.quirks][INFO] - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+[2026-03-18 10:00:21,689][speechbrain.utils.quirks][INFO] - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+[2026-03-18 10:00:21,690][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 10:00:21,690][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _recover
+[2026-03-18 10:00:21,695][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 10:00:21,695][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _load
+[2026-03-18 10:00:21,695][speechbrain.utils.checkpoints][DEBUG] - Registered parameter transfer hook for _load
+[2026-03-18 10:00:22,396][HYDRA] 	#1 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:22,916][HYDRA] 	#2 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:23,585][HYDRA] 	#3 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:24,120][HYDRA] 	#4 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:24,688][HYDRA] 	#5 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:25,447][HYDRA] 	#6 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:25,970][HYDRA] 	#7 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:26,492][HYDRA] 	#8 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:27,026][HYDRA] 	#9 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:27,551][HYDRA] 	#10 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:28,077][HYDRA] 	#11 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:28,598][HYDRA] 	#12 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:29,137][HYDRA] 	#13 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:29,696][HYDRA] 	#14 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:30,241][HYDRA] 	#15 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:30,756][HYDRA] 	#16 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:31,268][HYDRA] 	#17 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:31,775][HYDRA] 	#18 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:32,299][HYDRA] 	#19 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:32,825][HYDRA] 	#20 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:33,330][HYDRA] 	#21 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:33,863][HYDRA] 	#22 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:34,389][HYDRA] 	#23 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:34,905][HYDRA] 	#24 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:35,415][HYDRA] 	#25 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:35,933][HYDRA] 	#26 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:36,463][HYDRA] 	#27 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:36,985][HYDRA] 	#28 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:37,519][HYDRA] 	#29 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:38,035][HYDRA] 	#30 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:38,862][HYDRA] 	#31 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:39,385][HYDRA] 	#32 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:39,896][HYDRA] 	#33 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:40,402][HYDRA] 	#34 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:40,924][HYDRA] 	#35 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:41,458][HYDRA] 	#36 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:41,980][HYDRA] 	#37 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:42,508][HYDRA] 	#38 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:43,051][HYDRA] 	#39 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:43,585][HYDRA] 	#40 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:44,109][HYDRA] 	#41 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:44,634][HYDRA] 	#42 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:45,158][HYDRA] 	#43 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:45,702][HYDRA] 	#44 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:46,226][HYDRA] 	#45 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:46,747][HYDRA] 	#46 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:47,269][HYDRA] 	#47 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:47,790][HYDRA] 	#48 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:48,321][HYDRA] 	#49 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:48,845][HYDRA] 	#50 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:49,357][HYDRA] 	#51 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:49,858][HYDRA] 	#52 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:50,375][HYDRA] 	#53 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:51,223][HYDRA] 	#54 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:51,740][HYDRA] 	#55 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:52,258][HYDRA] 	#56 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:52,774][HYDRA] 	#57 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:53,312][HYDRA] 	#58 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:53,834][HYDRA] 	#59 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:54,335][HYDRA] 	#60 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:54,859][HYDRA] 	#61 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:55,380][HYDRA] 	#62 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:55,903][HYDRA] 	#63 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:56,423][HYDRA] 	#64 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:00:56,987][HYDRA] 	#65 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:00:57,533][HYDRA] 	#66 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:00:58,081][HYDRA] 	#67 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:00:58,599][HYDRA] 	#68 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:00:59,156][HYDRA] 	#69 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:00:59,681][HYDRA] 	#70 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:00,198][HYDRA] 	#71 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:01:00,720][HYDRA] 	#72 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:01:01,244][HYDRA] 	#73 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:01:01,763][HYDRA] 	#74 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:01:02,285][HYDRA] 	#75 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:01:02,814][HYDRA] 	#76 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:03,354][HYDRA] 	#77 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:01:03,873][HYDRA] 	#78 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:01:04,390][HYDRA] 	#79 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:01:04,890][HYDRA] 	#80 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:01:05,414][HYDRA] 	#81 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:01:05,933][HYDRA] 	#82 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:06,459][HYDRA] 	#83 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:01:06,991][HYDRA] 	#84 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:01:07,853][HYDRA] 	#85 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:01:08,364][HYDRA] 	#86 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:01:08,886][HYDRA] 	#87 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:01:09,409][HYDRA] 	#88 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:09,926][HYDRA] 	#89 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:01:10,451][HYDRA] 	#90 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:01:10,957][HYDRA] 	#91 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:01:11,480][HYDRA] 	#92 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:01:12,045][HYDRA] 	#93 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:01:12,569][HYDRA] 	#94 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:13,099][HYDRA] 	#95 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:01:13,620][HYDRA] 	#96 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:01:14,150][HYDRA] 	#97 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:01:14,663][HYDRA] 	#98 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:01:15,178][HYDRA] 	#99 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:01:15,711][HYDRA] 	#100 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:16,231][HYDRA] 	#101 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=w2v2-b optimizer=SGD
+[2026-03-18 10:01:16,753][HYDRA] 	#102 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 10:01:17,272][HYDRA] 	#103 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-emo optimizer=SGD
+[2026-03-18 10:01:17,771][HYDRA] 	#104 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=Adam
+[2026-03-18 10:01:18,296][HYDRA] 	#105 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-l-rob optimizer=SGD
+[2026-03-18 10:01:18,793][HYDRA] 	#106 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-b optimizer=Adam
+[2026-03-18 10:01:19,326][HYDRA] 	#107 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-5cl-wav model=w2v2-b optimizer=SGD

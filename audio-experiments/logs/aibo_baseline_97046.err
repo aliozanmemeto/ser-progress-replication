@@ -1,0 +1,25 @@
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/var/spool/slurmd/job97046/slurm_script: line 18: 330333 Killed                     "${VENV_BIN}/autrainer" train --config-dir "${CONF_DIR}" --config-name aibo.2c.wav
+slurmstepd: error: Detected 1 oom_kill event in StepId=97046.batch. Some of the step tasks have been OOM Killed.
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

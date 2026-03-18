@@ -1,0 +1,37 @@
+[2026-03-18 11:19:21,938][HYDRA] Launching 6 jobs locally
+[2026-03-18 11:19:21,938][HYDRA] 	#0 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=w2v2-l-emo optimizer=Adam
+[2026-03-18 11:19:27,175][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _speechbrain_save
+[2026-03-18 11:19:27,175][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _speechbrain_load
+[2026-03-18 11:19:27,175][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for save
+[2026-03-18 11:19:27,176][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for load
+[2026-03-18 11:19:27,446][speechbrain.utils.quirks][INFO] - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+[2026-03-18 11:19:27,447][speechbrain.utils.quirks][INFO] - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+[2026-03-18 11:19:27,448][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 11:19:27,448][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _recover
+[2026-03-18 11:19:27,453][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 11:19:27,453][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _load
+[2026-03-18 11:19:27,453][speechbrain.utils.checkpoints][DEBUG] - Registered parameter transfer hook for _load
+[2026-03-18 11:22:52,394][INFO]
+Dev results at epoch 1:
+accuracy:   0.2974
+uar:        0.5000
+f1:         0.2292
+train_loss: 0.8536
+dev_loss:   0.6077
+
+[2026-03-18 11:27:12,408][INFO]
+Dev results at epoch 2:
+accuracy:   0.7026
+uar:        0.5000
+f1:         0.4127
+train_loss: 0.9241
+dev_loss:   0.6004
+
+[2026-03-18 11:30:27,882][INFO]
+Dev results at epoch 3:
+accuracy:   0.2974
+uar:        0.5000
+f1:         0.2292
+train_loss: 0.6241
+dev_loss:   0.6072
+

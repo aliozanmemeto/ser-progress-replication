@@ -1,0 +1,101 @@
+In '_autrainer_': Could not find 'dataset/AIBO-2cl-mel16k'
+
+Available options in 'dataset':
+	AIBO-2cl-ComParE-func
+	AIBO-2cl-ComParE-llds
+	AIBO-2cl-IS09-func
+	AIBO-2cl-IS09-llds
+	AIBO-2cl-IS10-func
+	AIBO-2cl-IS10-llds
+	AIBO-2cl-IS11-func
+	AIBO-2cl-IS11-llds
+	AIBO-2cl-IS12-func
+	AIBO-2cl-IS12-llds
+	AIBO-2cl-IS13-func
+	AIBO-2cl-IS13-llds
+	AIBO-2cl-eGeMAPS-func
+	AIBO-2cl-eGeMAPS-llds
+	AIBO-2cl-mel-16k
+	AIBO-2cl-wav
+	AIBO-5cl-ComParE-func
+	AIBO-5cl-ComParE-llds
+	AIBO-5cl-IS09-func
+	AIBO-5cl-IS09-llds
+	AIBO-5cl-IS10-func
+	AIBO-5cl-IS10-llds
+	AIBO-5cl-IS11-func
+	AIBO-5cl-IS11-llds
+	AIBO-5cl-IS12-func
+	AIBO-5cl-IS12-llds
+	AIBO-5cl-IS13-func
+	AIBO-5cl-IS13-llds
+	AIBO-5cl-eGeMAPS-func
+	AIBO-5cl-eGeMAPS-llds
+	AIBO-5cl-mel-16k
+	AIBO-5cl-wav
+	AIBO-IS16-llds
+	AIBO-eGeMAPS-llds
+	AIBO-mel-16k
+	AIBO-mel-32k
+	AIBO-wav
+	AIBO-wav-pad
+	AudioSet-wav
+	DCASE2016Task1-16k
+	DCASE2016Task1-32k
+	DCASE2016Task1-wav
+	DCASE2016Task1-wav-stm
+	DCASE2018Task3-wav
+	DCASE2018Task3-wav-16k
+	DCASE2020Task1A-16k
+	DCASE2020Task1A-32k
+	DCASE2020Task1A-wav
+	DCASE2020Task1A-wav-16k
+	EDANSA2019-wav
+	EmoDB-32k
+	EmoDB-wav
+	MSPPodcast-ComParE-func
+	MSPPodcast-ComParE-llds
+	MSPPodcast-EmoAct-wav
+	MSPPodcast-EmoClass-all-wav
+	MSPPodcast-EmoClass-big4-wav
+	MSPPodcast-EmoDom-wav
+	MSPPodcast-EmoVal-wav
+	MSPPodcast-IS09-func
+	MSPPodcast-IS09-llds
+	MSPPodcast-IS10-func
+	MSPPodcast-IS10-llds
+	MSPPodcast-IS11-func
+	MSPPodcast-IS11-llds
+	MSPPodcast-IS12-func
+	MSPPodcast-IS12-llds
+	MSPPodcast-IS13-func
+	MSPPodcast-IS13-llds
+	MSPPodcast-eGeMAPS-func
+	MSPPodcast-eGeMAPS-llds
+	MSPPodcast-mel16k
+	MSPPodcast-wav
+	SpeechCommands-16k
+	SpeechCommands-32k
+	SpeechCommands-wav
+	ToyAudio-C
+	ToyAudio-MLC
+	ToyAudio-MTR
+	ToyAudio-R
+	ToyImage-C
+	ToyImage-MLC
+	ToyImage-MTR
+	ToyImage-R
+	ToyTabular-C
+	ToyTabular-MLC
+	ToyTabular-MTR
+	ToyTabular-R
+Config search path:
+	provider=hydra, path=pkg://hydra.conf
+	provider=main, path=pkg://autrainer.core.scripts
+	provider=autrainer-snapshot, path=file:///tmp/tmpqoe_vgw4
+	provider=autrainer-configs, path=file:///home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer-configurations
+	provider=command-line, path=file:///home/ge62niq/data/chi-gpu1/ge62niq/ser-progress-replication/audio-experiments/conf
+	provider=schema, path=structured://
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

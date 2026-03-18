@@ -1,0 +1,2 @@
+/var/spool/slurmd/job97008/slurm_script: /home/ge62niq/data/chi-gpu1/ge62niq/ser-progress-replication/.venv/bin/autrainer: /home/ge62niq/data/chi-gpu1/ge62niq/ser-progress-replication/.venv/bin/python3: bad interpreter: No such file or directory
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

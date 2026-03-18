@@ -1,0 +1,553 @@
+[2026-03-18 08:34:03,183][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:03,306][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:03,428][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:03,551][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:03,676][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:03,818][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:03,942][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:04,065][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:05,470][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:05,592][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:05,714][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:05,836][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:06,976][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,098][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,219][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,340][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,463][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,586][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,709][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:07,833][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:09,228][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:09,351][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:09,473][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:09,594][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=8 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:10,735][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:10,857][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:10,978][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:11,119][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:11,242][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:11,365][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:11,487][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:11,611][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:12,997][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:13,119][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:13,241][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:13,362][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=16 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:14,486][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:14,608][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:14,730][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:14,852][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:14,975][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:15,100][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:15,224][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:15,347][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:16,730][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:16,853][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:16,997][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:17,119][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=4 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:18,226][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:18,348][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:18,494][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:18,616][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:18,739][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:18,863][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:18,986][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:19,110][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:20,493][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:20,615][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:20,737][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:20,861][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=8 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:21,985][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,106][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,227][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,348][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,471][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,594][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,717][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:22,863][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:24,247][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:24,369][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:24,491][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:24,613][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.001 +batch_size=16 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:25,739][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:25,861][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:25,982][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:26,103][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:26,225][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:26,348][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:26,471][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:26,595][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:27,980][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:28,102][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:28,223][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:28,345][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=4 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:29,466][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:29,587][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:29,708][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:29,830][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:29,952][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:30,097][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:30,219][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:30,341][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:31,724][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:31,846][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:31,967][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:32,088][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=8 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:33,216][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:33,338][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Cnn14-16k-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:33,459][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:33,580][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=ResNet-50-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:33,703][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:33,826][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=Whisper-FFNN-Tiny-T optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:33,949][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=Adam with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:34,072][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-IS09-llds model=w2v2-l-emo optimizer=SGD with expr: {'expr': "dataset['id'] == 'AIBO-2cl-IS09-llds' and model['id'] != 'Seq-FFNN-IS09'"}
+[2026-03-18 08:34:35,457][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:35,580][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=Seq-FFNN-IS09 optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:35,702][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=Adam with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:35,823][HYDRA] Filtered: +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.0001 +batch_size=16 dataset=AIBO-2cl-wav model=Cnn14-16k-T optimizer=SGD with expr: {'expr': 'dataset[\'id\'] == "AIBO-2cl-wav" and model[\'id\'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]'}
+[2026-03-18 08:34:54,609][HYDRA] Launching 162 jobs locally
+[2026-03-18 08:34:54,609][HYDRA] 	#0 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Seq-FFNN-IS09 optimizer=Adam
+[2026-03-18 08:34:59,777][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _speechbrain_save
+[2026-03-18 08:34:59,777][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _speechbrain_load
+[2026-03-18 08:34:59,777][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for save
+[2026-03-18 08:34:59,778][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for load
+[2026-03-18 08:35:00,043][speechbrain.utils.quirks][INFO] - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+[2026-03-18 08:35:00,044][speechbrain.utils.quirks][INFO] - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+[2026-03-18 08:35:00,045][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 08:35:00,045][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _recover
+[2026-03-18 08:35:00,049][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint save hook for _save
+[2026-03-18 08:35:00,049][speechbrain.utils.checkpoints][DEBUG] - Registered checkpoint load hook for _load
+[2026-03-18 08:35:00,049][speechbrain.utils.checkpoints][DEBUG] - Registered parameter transfer hook for _load
+[2026-03-18 08:35:26,237][INFO]
+Dev results at epoch 1:
+accuracy:   0.5331
+uar:        0.5676
+f1:         0.5231
+train_loss: 0.6233
+dev_loss:   0.5902
+
+[2026-03-18 08:35:41,599][INFO]
+Dev results at epoch 2:
+accuracy:   0.6319
+uar:        0.6292
+f1:         0.6049
+train_loss: 0.6071
+dev_loss:   0.5659
+
+[2026-03-18 08:35:59,353][INFO]
+Dev results at epoch 3:
+accuracy:   0.6554
+uar:        0.6449
+f1:         0.6244
+train_loss: 0.5983
+dev_loss:   0.5569
+
+[2026-03-18 08:36:16,356][INFO]
+Dev results at epoch 4:
+accuracy:   0.6970
+uar:        0.5972
+f1:         0.6021
+train_loss: 0.5978
+dev_loss:   0.5580
+
+[2026-03-18 08:36:33,261][INFO]
+Dev results at epoch 5:
+accuracy:   0.6947
+uar:        0.6184
+f1:         0.6219
+train_loss: 0.5978
+dev_loss:   0.5623
+
+[2026-03-18 08:36:50,873][INFO]
+Dev results at epoch 6:
+accuracy:   0.5724
+uar:        0.6228
+f1:         0.5653
+train_loss: 0.5915
+dev_loss:   0.5717
+
+[2026-03-18 08:37:07,202][INFO]
+Dev results at epoch 7:
+accuracy:   0.6162
+uar:        0.6224
+f1:         0.5934
+train_loss: 0.5872
+dev_loss:   0.5731
+
+[2026-03-18 08:37:24,665][INFO]
+Dev results at epoch 8:
+accuracy:   0.5511
+uar:        0.6348
+f1:         0.5499
+train_loss: 0.5866
+dev_loss:   0.5772
+
+[2026-03-18 08:37:40,129][INFO]
+Dev results at epoch 9:
+accuracy:   0.6465
+uar:        0.6548
+f1:         0.6240
+train_loss: 0.5860
+dev_loss:   0.5558
+
+[2026-03-18 08:37:57,519][INFO]
+Dev results at epoch 10:
+accuracy:   0.6150
+uar:        0.6640
+f1:         0.6064
+train_loss: 0.5808
+dev_loss:   0.5478
+
+[2026-03-18 08:38:14,538][INFO]
+Dev results at epoch 11:
+accuracy:   0.6857
+uar:        0.5957
+f1:         0.5998
+train_loss: 0.5784
+dev_loss:   0.5610
+
+[2026-03-18 08:38:31,233][INFO]
+Dev results at epoch 12:
+accuracy:   0.7138
+uar:        0.6494
+f1:         0.6518
+train_loss: 0.5740
+dev_loss:   0.5429
+
+[2026-03-18 08:38:48,348][INFO]
+Dev results at epoch 13:
+accuracy:   0.6667
+uar:        0.6017
+f1:         0.6016
+train_loss: 0.5781
+dev_loss:   0.5708
+
+[2026-03-18 08:39:05,418][INFO]
+Dev results at epoch 14:
+accuracy:   0.7048
+uar:        0.6441
+f1:         0.6449
+train_loss: 0.5744
+dev_loss:   0.5408
+
+[2026-03-18 08:39:21,903][INFO]
+Dev results at epoch 15:
+accuracy:   0.7363
+uar:        0.6665
+f1:         0.6721
+train_loss: 0.5736
+dev_loss:   0.5259
+
+[2026-03-18 08:39:39,030][INFO]
+Dev results at epoch 16:
+accuracy:   0.6229
+uar:        0.6370
+f1:         0.6031
+train_loss: 0.5740
+dev_loss:   0.5567
+
+[2026-03-18 08:39:56,396][INFO]
+Dev results at epoch 17:
+accuracy:   0.6655
+uar:        0.6434
+f1:         0.6286
+train_loss: 0.5729
+dev_loss:   0.5498
+
+[2026-03-18 08:40:12,986][INFO]
+Dev results at epoch 18:
+accuracy:   0.6902
+uar:        0.6599
+f1:         0.6491
+train_loss: 0.5749
+dev_loss:   0.5391
+
+[2026-03-18 08:40:30,944][INFO]
+Dev results at epoch 19:
+accuracy:   0.7149
+uar:        0.6328
+f1:         0.6388
+train_loss: 0.5714
+dev_loss:   0.5497
+
+[2026-03-18 08:40:48,359][INFO]
+Dev results at epoch 20:
+accuracy:   0.7430
+uar:        0.6419
+f1:         0.6529
+train_loss: 0.5767
+dev_loss:   0.5376
+
+[2026-03-18 08:41:01,396][INFO]
+Dev results at epoch 21:
+accuracy:   0.7295
+uar:        0.6356
+f1:         0.6444
+train_loss: 0.5771
+dev_loss:   0.5357
+
+[2026-03-18 08:41:18,724][INFO]
+Dev results at epoch 22:
+accuracy:   0.6700
+uar:        0.6640
+f1:         0.6411
+train_loss: 0.5738
+dev_loss:   0.5340
+
+[2026-03-18 08:41:34,752][INFO]
+Dev results at epoch 23:
+accuracy:   0.6857
+uar:        0.6588
+f1:         0.6465
+train_loss: 0.5702
+dev_loss:   0.5457
+
+[2026-03-18 08:41:52,192][INFO]
+Dev results at epoch 24:
+accuracy:   0.6498
+uar:        0.6681
+f1:         0.6311
+train_loss: 0.5748
+dev_loss:   0.5532
+
+[2026-03-18 08:42:09,189][INFO]
+Dev results at epoch 25:
+accuracy:   0.6240
+uar:        0.6465
+f1:         0.6073
+train_loss: 0.5749
+dev_loss:   0.5535
+
+[2026-03-18 08:42:26,023][INFO]
+Dev results at epoch 26:
+accuracy:   0.5589
+uar:        0.5925
+f1:         0.5478
+train_loss: 0.5756
+dev_loss:   0.6069
+
+[2026-03-18 08:42:43,400][INFO]
+Dev results at epoch 27:
+accuracy:   0.6409
+uar:        0.6149
+f1:         0.6018
+train_loss: 0.5731
+dev_loss:   0.5587
+
+[2026-03-18 08:43:01,109][INFO]
+Dev results at epoch 28:
+accuracy:   0.6981
+uar:        0.6448
+f1:         0.6430
+train_loss: 0.5728
+dev_loss:   0.5491
+
+[2026-03-18 08:43:18,559][INFO]
+Dev results at epoch 29:
+accuracy:   0.7160
+uar:        0.6543
+f1:         0.6561
+train_loss: 0.5694
+dev_loss:   0.5381
+
+[2026-03-18 08:43:36,427][INFO]
+Dev results at epoch 30:
+accuracy:   0.6072
+uar:        0.6378
+f1:         0.5936
+train_loss: 0.5664
+dev_loss:   0.5634
+
+[2026-03-18 08:43:54,009][INFO]
+Best results at epoch 24:
+accuracy:   0.6498
+uar:        0.6681
+f1:         0.6311
+train_loss: 0.5748
+dev_loss:   0.5532
+
+[2026-03-18 08:43:54,013][INFO]
+Test results:
+test_loss:     0.5762
+test_accuracy: 0.6019
+test_f1:       0.5902
+test_uar:      0.6374
+
+[2026-03-18 08:43:55,164][HYDRA] 	#1 : +loggers=['autrainer.loggers.TensorBoardLogger'] +seed=1 +learning_rate=0.01 +batch_size=4 dataset=AIBO-2cl-IS09-llds model=Seq-FFNN-IS09 optimizer=SGD
+[2026-03-18 08:44:13,650][INFO]
+Dev results at epoch 1:
+accuracy:   0.4141
+uar:        0.5526
+f1:         0.4059
+train_loss: 0.6240
+dev_loss:   0.6039
+
+[2026-03-18 08:44:32,703][INFO]
+Dev results at epoch 2:
+accuracy:   0.6846
+uar:        0.5144
+f1:         0.4787
+train_loss: 0.6231
+dev_loss:   0.6026
+
+[2026-03-18 08:44:51,817][INFO]
+Dev results at epoch 3:
+accuracy:   0.2974
+uar:        0.5000
+f1:         0.2292
+train_loss: 0.6222
+dev_loss:   0.6061
+
+[2026-03-18 08:45:11,554][INFO]
+Dev results at epoch 4:
+accuracy:   0.6914
+uar:        0.5127
+f1:         0.4671
+train_loss: 0.6221
+dev_loss:   0.5999
+
+[2026-03-18 08:45:31,086][INFO]
+Dev results at epoch 5:
+accuracy:   0.6049
+uar:        0.6155
+f1:         0.5842
+train_loss: 0.6212
+dev_loss:   0.5998
+
+[2026-03-18 08:45:50,638][INFO]
+Dev results at epoch 6:
+accuracy:   0.7026
+uar:        0.5816
+f1:         0.5838
+train_loss: 0.6174
+dev_loss:   0.5911
+
+[2026-03-18 08:46:09,704][INFO]
+Dev results at epoch 7:
+accuracy:   0.5522
+uar:        0.6226
+f1:         0.5494
+train_loss: 0.6107
+dev_loss:   0.5851
+
+[2026-03-18 08:46:24,375][INFO]
+Dev results at epoch 8:
+accuracy:   0.6689
+uar:        0.6414
+f1:         0.6291
+train_loss: 0.6016
+dev_loss:   0.5650
+
+[2026-03-18 08:46:40,683][INFO]
+Dev results at epoch 9:
+accuracy:   0.6083
+uar:        0.6266
+f1:         0.5905
+train_loss: 0.5963
+dev_loss:   0.5698
+
+[2026-03-18 08:46:58,875][INFO]
+Dev results at epoch 10:
+accuracy:   0.6049
+uar:        0.6394
+f1:         0.5926
+train_loss: 0.5916
+dev_loss:   0.5708
+
+[2026-03-18 08:47:17,639][INFO]
+Dev results at epoch 11:
+accuracy:   0.7183
+uar:        0.6200
+f1:         0.6274
+train_loss: 0.5898
+dev_loss:   0.5584
+
+[2026-03-18 08:47:34,237][INFO]
+Dev results at epoch 12:
+accuracy:   0.6599
+uar:        0.6329
+f1:         0.6203
+train_loss: 0.5832
+dev_loss:   0.5534
+
+[2026-03-18 08:47:50,905][INFO]
+Dev results at epoch 13:
+accuracy:   0.6465
+uar:        0.6352
+f1:         0.6152
+train_loss: 0.5785
+dev_loss:   0.5518
+
+[2026-03-18 08:48:08,139][INFO]
+Dev results at epoch 14:
+accuracy:   0.6835
+uar:        0.6268
+f1:         0.6254
+train_loss: 0.5772
+dev_loss:   0.5442
+
+[2026-03-18 08:48:24,795][INFO]
+Dev results at epoch 15:
+accuracy:   0.7329
+uar:        0.6347
+f1:         0.6441
+train_loss: 0.5734
+dev_loss:   0.5399
+
+[2026-03-18 08:48:42,452][INFO]
+Dev results at epoch 16:
+accuracy:   0.7430
+uar:        0.6408
+f1:         0.6518
+train_loss: 0.5702
+dev_loss:   0.5318
+
+[2026-03-18 08:48:58,538][INFO]
+Dev results at epoch 17:
+accuracy:   0.7351
+uar:        0.6429
+f1:         0.6522
+train_loss: 0.5705
+dev_loss:   0.5319
+
+[2026-03-18 08:49:16,790][INFO]
+Dev results at epoch 18:
+accuracy:   0.6532
+uar:        0.6694
+f1:         0.6336
+train_loss: 0.5638
+dev_loss:   0.5358
+
+[2026-03-18 08:49:34,153][INFO]
+Dev results at epoch 19:
+accuracy:   0.7172
+uar:        0.6486
+f1:         0.6522
+train_loss: 0.5649
+dev_loss:   0.5243
+
+[2026-03-18 08:49:53,367][INFO]
+Dev results at epoch 20:
+accuracy:   0.7430
+uar:        0.6093
+f1:         0.6148
+train_loss: 0.5565
+dev_loss:   0.5447
+
+[2026-03-18 08:50:09,431][INFO]
+Dev results at epoch 21:
+accuracy:   0.6644
+uar:        0.6676
+f1:         0.6396
+train_loss: 0.5497
+dev_loss:   0.5256
+
+[2026-03-18 08:50:28,908][INFO]
+Dev results at epoch 22:
+accuracy:   0.7104
+uar:        0.6699
+f1:         0.6641
+train_loss: 0.5511
+dev_loss:   0.5224
+

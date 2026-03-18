@@ -1,0 +1,11 @@
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+slurmstepd: error: *** JOB 97048 ON chi-gpu5 CANCELLED AT 2026-03-18T10:59:34 ***
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

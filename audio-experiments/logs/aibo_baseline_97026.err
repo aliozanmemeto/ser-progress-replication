@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+TypeError: AIBO.__init__() got an unexpected keyword argument 'preprocessing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/bin/autrainer", line 8, in <module>
+    sys.exit(main())
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/cli.py", line 108, in main
+    cli.main()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/cli.py", line 100, in main
+    command.run(args, unknown)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/abstract_script.py", line 68, in run
+    self.main(args)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/preprocess_script.py", line 191, in main
+    self._preprocess_datasets()
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/preprocess_script.py", line 205, in _preprocess_datasets
+    preprocess_main(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/scripts/preprocess_script.py", line 73, in preprocess_main
+    data = autrainer.instantiate(dataset, AbstractDataset)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/autrainer/core/wrappers/instantiate.py", line 80, in instantiate
+    obj = hydra.utils.instantiate(config, **kwargs)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 226, in instantiate
+    return instantiate_node(
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 347, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "/home/ge62niq/data/chi-gpu1/ge62niq/personalized_ser/.venv310/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'autrainer.datasets.aibo.AIBO':
+TypeError("AIBO.__init__() got an unexpected keyword argument 'preprocessing'")
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session

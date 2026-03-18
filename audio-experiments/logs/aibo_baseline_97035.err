@@ -1,0 +1,4 @@
+/bin/sh: line 1: pip: command not found
+/bin/sh: line 1: pip: command not found
+slurmstepd: error: *** JOB 97035 ON chi-gpu5 CANCELLED AT 2026-03-18T08:50:35 ***
+slurmstepd: error: pam_close_session: Cannot make/remove an entry for the specified session
