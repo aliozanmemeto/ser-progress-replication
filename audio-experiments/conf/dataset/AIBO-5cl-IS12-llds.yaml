@@ -4,9 +4,8 @@ _target_: autrainer.datasets.AIBO
 features_subdir: IS12-llds
 aibo_task: 5cl
 
-standardize: true
-path: data/AIBO/
-features_path: data/AIBO/features/
+path: /data/chi-gpu1/perser/AIBO/
+features_path: /data/chi-gpu1/perser/AIBO/features/
 index_column: file
 target_column: class
 

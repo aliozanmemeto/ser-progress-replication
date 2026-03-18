@@ -4,6 +4,6 @@ file_handler:
 pipeline:
   - autrainer.transforms.StereoToMono
   - autrainer.transforms.OpenSMILE:
-      feature_set: ComParE_2016
+      feature_set: IS09
       sample_rate: 16000
       functionals: false

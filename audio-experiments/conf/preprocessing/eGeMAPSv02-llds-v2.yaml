@@ -3,7 +3,7 @@ file_handler:
     target_sample_rate: 16000
 pipeline:
   - autrainer.transforms.StereoToMono
-  - data.OpenSMILE:
+  - autrainer.transforms.OpenSMILE:
       feature_set: eGeMAPSv02
       sample_rate: 16000
       functionals: false

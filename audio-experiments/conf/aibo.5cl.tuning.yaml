@@ -2,7 +2,7 @@ defaults:
   - _autrainer_
   - _self_
 
-results_dir: results/audio
+results_dir: /data/chi-gpu1/perser/AIBO/results/ser-experiments
 experiment_id: aibo-5cl-tuning
 iterations: 30
 progress_bar: false
@@ -14,11 +14,10 @@ hydra:
         - autrainer.loggers.TensorBoardLogger
       +seed: 1
       +learning_rate: 0.01,0.001,0.0001
-      +inference_batch_size: 1
-      batch_size: 4,8,16
+      +batch_size: 4,8,16
       dataset:
         AIBO-5cl-IS09-llds,
-        AIBO-5cl-mel16k,
+        AIBO-5cl-mel-16k,
         AIBO-5cl-wav
       model:
         Seq-FFNN-IS09,
@@ -33,4 +32,4 @@ hydra:
       - type: expr
         expr: dataset['id'] == "AIBO-2cl-mel16k" and model['id'] in ["Seq-FFNN-IS09","w2v2-l-emo","Whisper-FFNN-Tiny-T"]
       - type: expr
-        expr: dataset['id'] == "AIBO-2cl-wav" ! model['id'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]
+        expr: dataset['id'] == "AIBO-2cl-wav" and model['id'] in ["Cnn14-16k-T","ResNet50-T","Seq-FFNN-IS09"]
